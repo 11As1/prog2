@@ -159,6 +159,6 @@ else:
 
 import math
 n=1000
-print(f"LinkedList  O(n)     -> {n} confronti")
-print(f"BST         O(log n) -> {math.log2(n):} confronti")
+print(f"LinkedList O(n)-> {n} confronti")
+print(f"BST O(log n)->{math.log2(n):} confronti")
 print(f"Speedup teorico atteso: {n / math.log2(n):}x")
